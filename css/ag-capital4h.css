@@ -1,0 +1,47 @@
+.site-container .site-header .title-area .site-secondary-logo .americorp {
+	display: inline-block;
+	margin-right: 8px;
+}
+
+.site-container .site-header .title-area .site-secondary-logo .americorp img {
+	width: 68px;
+}
+
+@media screen and (max-width: 40em){
+	.site-container .site-header .title-area .site-description {
+		margin-top: 58px;
+	}
+	.site-container .site-header .header-widget-area {
+		top: 80px;
+		right: 50%;
+		transform: translate(50%);
+		width: 215px;
+	}
+}
+
+@media screen and (min-width: 40.0625em) and (max-width: 750px) {
+	.site-container .site-header .title-area .site-secondary-logo.fourh {
+		height: 65px;
+		width: 5.16667%;
+	}
+	.site-container .site-header .title-area .site-secondary-logo.fourh + .site-description {
+		width: 53.16667%;
+	}
+}
+
+@media screen and (min-width: 40.0625em) {
+	.site-container .site-header .title-area {
+		height: 105px;
+	}
+
+	.site-container .site-header .title-area .site-secondary-logo .americorp {
+		margin-right: 0;
+		margin-bottom: 5px;
+	}
+}
+
+@media screen and (min-width: 905px) {
+	.site-container .site-header .title-area {
+		height: 100px;
+	}
+}
